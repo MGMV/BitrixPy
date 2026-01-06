@@ -37,7 +37,7 @@ pip install -r requirements.txt
     BITRIX_BASE_URL='https://your-domain.ru/rest/1'
    ```
    > Замените URL на актуальный вебхук вашего Bitrix24.
-2. ** Перейдите в браузер по ссылке: http://127.0.0.1:8000/bitrix/deal
+2. **Перейдите в браузер по ссылке: http://127.0.0.1:8000/bitrix/deal**
 
 2. **Проверьте права API**  
    Убедитесь, что вебхук имеет доступ к:
