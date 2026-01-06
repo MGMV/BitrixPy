@@ -1,0 +1,8 @@
+requests
+bitrix24-rest
+aiohttp
+fastapi
+uvicorn
+pydantic-settings
+python-dotenv
+pytz
