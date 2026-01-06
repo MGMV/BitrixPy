@@ -37,7 +37,6 @@ pip install -r requirements.txt
     BITRIX_BASE_URL='https://your-domain.ru/rest/1'
    ```
    > Замените URL на актуальный вебхук вашего Bitrix24.
-2. **Перейдите в браузер по ссылке: http://127.0.0.1:8000/bitrix/deal**
 
 2. **Проверьте права API**  
    Убедитесь, что вебхук имеет доступ к:
@@ -51,7 +50,8 @@ pip install -r requirements.txt
    ```bash
    uvicorn src.main:app --reload
    ```
-2. Результат будет сохранён в `deals_report.csv` в текущей директории.
+2. **Перейдите в браузер по ссылке: http://127.0.0.1:8000/bitrix/deal**
+3. Результат будет сохранён в `deals_report.csv` в текущей директории.
 
 
 ## Пример вывода CSV
